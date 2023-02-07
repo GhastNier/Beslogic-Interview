@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 import { map } from 'rxjs/operators';
 import { Breakpoints, BreakpointObserver } from '@angular/cdk/layout';
-import {clientCall} from "../../mongo.js";
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
@@ -13,7 +12,7 @@ export class HomeComponent {
     map(({ matches }) => {
       if (matches) {
         return [
-          { title: clientCall(), cols: 2, rows: 1 },
+          { title: 'Card 1', cols: 2, rows: 1 },
           { title: 'Card 2', cols: 2, rows: 1 },
           { title: 'Card 3', cols: 2, rows: 1 },
           { title: 'Card 4', cols: 2, rows: 1 }
