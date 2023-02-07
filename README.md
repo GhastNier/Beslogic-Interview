@@ -1,27 +1,19 @@
-# Market
+# Description
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.4.
+Découverte d'Angular CLI et début d'un plan de travail pour le projet d'interview.
 
-## Development server
+## Stack
+![image](https://user-images.githubusercontent.com/89518368/217144146-a493e8cd-47ad-4724-9b4c-4e2192f8b659.png)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Avancement
 
-## Code scaffolding
+- [x] MongoDB
+- [ ] Express
+- [ ] Angular
+- [x] Node
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+### Description des avancements de la Stack
+- **M.** _MongoDB_ => La base de documents est mise en place, les donnés ont été prise directement de l'[API PokemonTCG](https://docs.pokemontcg.io/api-reference/cards/search-cards/) seulement les cartes présentant des membres de la première génération ont été prise en compte.
+- **E.** _Express_ => Pour le moment les microservices nécessaire ne sont pas encore mis en place pour faire la gestion des données.
+- **A.** _Angular_ => Les bases d'angular sont présente, les pages déjà produites ont été généré par la commande ```bash ng generate```
+- **N.** _Node_ => Node est bel et bien en place et les vulnérabilités prise en charge a l'aide de ```json override```
